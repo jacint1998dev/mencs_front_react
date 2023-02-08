@@ -16,13 +16,79 @@ body{
   left: 0px;
   top: 0px;
 }
+.animals-desk{
+  display: none;
+}
 .dropdown{
   display: none;
 }
 .menu-nav-div{
   display: none;
 }
-
+.button-more-animals{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 15px;
+  gap: 15px;
+  position: absolute;
+  width: 72px;
+  height: 40px;
+  left: 253px;
+  top: 10px;
+  background: #FFFAFA;
+  border: 2px solid #2B2A29;
+  border-radius: 25px;
+}
+.button-more-doctor{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 15px;
+  gap: 15px;
+  position: absolute;
+  width: 72px;
+  height: 40px;
+  left: 253px;
+  top: 10px;
+  background: #FFFAFA;
+  border: 2px solid #2B2A29;
+  border-radius: 25px;
+}
+.button-more-shelter{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 15px;
+  gap: 15px;
+  position: absolute;
+  width: 72px;
+  height: 40px;
+  left: 253px;
+  top: 10px;
+  background: #FFFAFA;
+  border: 2px solid #2B2A29;
+  border-radius: 25px;
+}
+.button-more-boarding{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 15px;
+  gap: 15px;
+  position: absolute;
+  width: 72px;
+  height: 40px;
+  left: 253px;
+  top: 10px;
+  background: #FFFAFA;
+  border: 2px solid #2B2A29;
+  border-radius: 25px;
+}
 .fa-solid.fa-bars.nav-bar-icon{
   display: flex;
   flex-direction: row;
@@ -310,7 +376,7 @@ top: 0px;
   line-height: 27px;
   color: #2B2A29; 
 }
-.button-more{
+.button-more-{
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -413,7 +479,9 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-
+.big-animal-card{
+  display: none;
+}
 .fa-regular.fa-heart{
   color: white;
   position: absolute;
@@ -527,7 +595,7 @@ padding: 24px;
 gap: 10px;
 width: 240px;
 height: 364px;
-background: #FFFAFA;
+background: #f8dcdc;
 box-shadow: 10px 10px 10px rgba(102, 69, 37, 0.15);
 border-radius: 12px;
 flex: none;
@@ -603,11 +671,11 @@ top: 438px;
 }
 .doctor{
   
-position: absolute;
-width: 1274px;
-height: 339px;
-left: 323px;
-top: 2471px;
+  position: absolute;
+  width: 633px;
+  height: 446px;
+  left: 25px;
+  top: 1300px;
 
 }
 
@@ -615,8 +683,8 @@ top: 2471px;
   position: absolute;
 width: 326px;
 height: 130px;
-left: 25px;
-top: 1440px;
+left: 0px;
+top: 90px;
 background: #FFFAFA;
 box-shadow: 0px 3px 10px rgba(43, 42, 41, 0.15);
 border-radius: 25px;
@@ -692,10 +760,12 @@ flex-grow: 0;
   position: absolute;
 width: 72px;
 height: 8px;
-left: 152px;
-top: 1590px;
+left: 125px;
+top: 250px;
 }
-
+.doctor-desk{
+  display: none;
+}
 .boarding-frame{
   position: absolute;
 width: 325px;
@@ -1286,12 +1356,15 @@ top: 371px;
   }
 
 
-.animals{
+.animals-desk{
   position: absolute;
 width: 1275px;
 height: 728px;
 left: 323px;
 top: 1160px;
+}
+.animals{
+  display: none;
 }
 .dropdown-2{
   box-sizing: border-box;
@@ -1474,14 +1547,6 @@ order: 0;
 flex-grow: 0;
 }
 
-
-  .shelter{
-    position: absolute;
-width: 1276px;
-height: 423px;
-left: 323px;
-top: 1968px;
-  }
 .title{
   position: absolute;
 width: 146px;
@@ -1495,24 +1560,7 @@ display: flex;
 align-items: center;
 color: #2B2A29;
 }
-  .shelter-cards{
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 20px;
-
-position: absolute;
-width: 1276px;
-height: 364px;
-left: 0px;
-top: 59px;
-  }
-
-  .shelter-title{
-    top: -100px;
-  }
-
+  
   .button-more{
     display: flex;
 flex-direction: row;
@@ -1520,11 +1568,11 @@ align-items: center;
 padding: 0px 10px;
 gap: 15px;
 
-position: absolute;
+position: relative;
 width: 56px;
 height: 50px;
 left: 1623px;
-top: 1512px;
+top: 1472px;
 background: #FFFAFA;
 border: 2px solid #2B2A29;
 border-radius: 25px;
@@ -1810,9 +1858,6 @@ width: 274px;
 height: 50px;
 left: 299px;
 top: 0px;
-
-/* black */
-
 border: 2px solid #2B2A29;
 border-radius: 15px;
 }
@@ -1843,4 +1888,133 @@ bottom: 35.41%;
   flex-direction: row;
   justify-content: space-between;
 }
+.button-more-animals{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 10px;
+  gap: 15px;
+  position: absolute;
+  width: 56px;
+  height: 50px;
+  left: 1335px;
+  top: 360px;
+  background: #FFFAFA;
+  border: 2px solid #2B2A29;
+  border-radius: 25px;
+}
+.button-more-boarding{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 10px;
+  gap: 15px;
+  
+  position: absolute;
+  width: 56px;
+  height: 50px;
+  left: 1335px;
+  top: 200px;
+  background: #FFFAFA;
+  border: 2px solid #2B2A29;
+  border-radius: 25px;
+}
+.button-more-doctor{
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 10px;
+  gap: 15px;
+  position: absolute;
+  width: 56px;
+  height: 50px;
+  left: 1335px;
+  top: 200px;
+  background: #FFFAFA;
+  border: 2px solid #2B2A29;
+  border-radius: 25px;
+}
+.button-more-shelter{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 10px;
+  gap: 15px;
+  position: absolute;
+  width: 56px;
+  height: 50px;
+  left: 1335px;
+  top: 200px;
+  background: #FFFAFA;
+  border: 2px solid #2B2A29;
+  border-radius: 25px;
+}
+.shelter{
+  position: absolute;
+width: 1276px;
+height: 423px;
+left: 323px;
+top: 1968px;
+}
+.shelter-cards{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+position: absolute;
+width: 1276px;
+height: 364px;
+left: 0px;
+top: 80px;
+}
+.doctor-desk{
+  position: absolute;
+width: 1274px;
+height: 339px;
+left: 323px;
+top: 2471px;
+}
+.doctor-frame{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+position: absolute;
+width: 1274px;
+height: 280px;
+left: 0px;
+top: 59px;
+}
+.doctor-inside-frame-1{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+width: 617px;
+height: 280px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.doctor-inside-frame-2{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+width: 617px;
+height: 280px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
 }

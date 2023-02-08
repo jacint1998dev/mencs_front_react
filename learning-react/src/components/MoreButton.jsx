@@ -1,8 +1,12 @@
 import React from "react";
+import PropTypes from 'prop-types'
 
-export default function MoreButton(){
+export default function MoreButton(props){
+    MoreButton.propTypes = {
+        className : PropTypes.string
+    }
     return (
-        <button className="button-more">
+        <button className={`button-more-${props.className}`}>
             <p className="button-more-text">
             Több
             </p>

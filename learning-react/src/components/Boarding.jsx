@@ -8,7 +8,7 @@ export default function Boarding(){
     return(
         <>
         <div className="boarding-frame">
-            <MoreButton/>
+            <MoreButton className="boarding"/>
             <Title title='Állat panziók'/>
         </div>
             <BoardingCard title='Állat panziók' text='Sed ut perspiciatis unde omnis iste natus error...'/>

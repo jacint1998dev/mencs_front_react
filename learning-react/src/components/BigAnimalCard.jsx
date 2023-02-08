@@ -9,22 +9,22 @@ export default function BigAnimalCard(props){
     }
     
     return(
-      <>
-        <div className="big-animal-card" style={{
-          backgroundImage: `url(${props.background})`
-        }}>
-            <i className="fa-regular fa-heart animal-heart-icon"></i>
-            <div className="big-animal-card-textarea">
-              <div className="big-animal-card-textarea-inside">
-                <h2 className="big-animal-card-name">{props.name}</h2>
-                <div className="big-animal-card-textarea-inside-2">
-                  <p className="big-animal-card-textarea-inside-2-text">{props.text}</p>
-                </div>
+      <> 
+      <div className="big-animal-card" style={{
+        backgroundImage: `url(${props.background})`
+      }}>
+          <i className="fa-regular fa-heart animal-heart-icon"></i>
+          <div className="big-animal-card-textarea">
+            <div className="big-animal-card-textarea-inside">
+              <h2 className="big-animal-card-name">{props.name}</h2>
+              <div className="big-animal-card-textarea-inside-2">
+                <p className="big-animal-card-textarea-inside-2-text">{props.text}</p>
               </div>
             </div>
-        </div>
-
-         <div className="big-card-frame" style={{
+          </div>
+      </div>
+      
+        <div className="big-card-frame" style={{
              backgroundImage: `url(${props.background})`
            }}>
            <i className="fa-regular fa-heart animal-heart-icon"></i>
