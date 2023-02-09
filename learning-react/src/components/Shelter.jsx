@@ -13,7 +13,6 @@ export default function Shelter(){
                 <ShelterCards image={shelterImage} name='Lorem Ipsum' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor... tovább.'/>
                 <ShelterCards image={shelterImage} name='Lorem Ipsum' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor... tovább.'/>
                 <ShelterCards image={shelterImage} name='Lorem Ipsum' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor... tovább.'/>
-                <ShelterCards image={shelterImage} name='Lorem Ipsum' text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor... tovább.'/>
             </div>
             <div className="shelter-title">
                 <Title title='Menhelyek'/>

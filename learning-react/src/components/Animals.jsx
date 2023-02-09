@@ -5,7 +5,9 @@ import BigAnimalCard from "./BigAnimalCard";
  import SmallAnimalCard from "./SmallAnimalCard";
  import Title from "./Title";
  import catImage from '../images/cat_image.jpg'
+ import catImage2 from '../images/cat2.jpg'
  import dogImage from '../images/dog-5357794_1280.jpg'
+ import dogImage2 from '../images/dog2.jpg'
 
 export default function Animals()
 {
@@ -15,17 +17,14 @@ export default function Animals()
             <div className="animals-desk">
                 <div className="animal-frame">
                     <div className="animal-frame-row-1">
-                    <BigAnimalCard background={catImage} name='Nyomi' text='keverék, 4 hónapos' />
-                    <BigAnimalCard background={dogImage} name='Bloki' text='faj, 4 hónapos' />
-                    <BigAnimalCard background={catImage} name='Nyomi' text='keverék, 4 hónapos' />
-                    <BigAnimalCard background={dogImage} name='Bloki' text='faj, 4 hónapos' />
-                    </div>
-                    <div className="animal-frame-row-2">
-                    <BigAnimalCard background={catImage} name='Nyomi' text='keverék, 4 hónapos' />
-                    <BigAnimalCard background={dogImage} name='Bloki' text='faj, 4 hónapos' />
-                    <BigAnimalCard background={catImage} name='Nyomi' text='keverék, 4 hónapos' />
-                    <BigAnimalCard background={dogImage} name='Bloki' text='faj, 4 hónapos' />
-                    
+                    <BigAnimalCard id='1' background={catImage} name='Rex' text='keverék, 4 hónapos' />
+                    <BigAnimalCard id='2' background={dogImage} name='Bloki' text='faj, 4 hónapos' />
+                    <BigAnimalCard id='3' background={catImage2} name='Retek' text='keverék, 4 hónapos' />
+                    <BigAnimalCard id='4' background={dogImage2} name='Gombóc' text='faj, 4 hónapos' />
+                    <BigAnimalCard id='5' background={catImage2} name='Szotyi' text='keverék, 4 hónapos' />
+                    <BigAnimalCard id='6' background={dogImage2} name='Bloki' text='faj, 4 hónapos' />
+                    <BigAnimalCard id='7' background={catImage} name='Nyomi' text='keverék, 4 hónapos' />
+                    <BigAnimalCard id='8' background={dogImage} name='Nyomi' text='faj, 4 hónapos' />
                     </div>
                 </div>
                 <MoreButton className='animals'/>
@@ -60,10 +59,10 @@ export default function Animals()
                      </div>
                  </div>
                  <div className="big-animal-cards-1">
-                     <BigAnimalCard background={catImage} name='Nyomi' text='keverék, 4 hónapos' />
-                     <BigAnimalCard background={dogImage} name='Bloki' text='faj, 4 hónapos' />
-                     <BigAnimalCard background={catImage} name='Nyomi' text='keverék, 3 hónapos' />
-                     <BigAnimalCard background={catImage} name='Nyomi' text='keverék, 3 hónapos' />
+                     <BigAnimalCard id='1' background={catImage} name='Nyomi' text='keverék, 4 hónapos' />
+                     <BigAnimalCard id='2' background={dogImage} name='Bloki' text='faj, 4 hónapos' />
+                     <BigAnimalCard id='3' background={catImage} name='Nyomi' text='keverék, 3 hónapos' />
+                     <BigAnimalCard id='4' background={catImage} name='Nyomi' text='keverék, 3 hónapos' />
                  </div>
          </div>
          </>
