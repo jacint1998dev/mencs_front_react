@@ -9,7 +9,7 @@ export default function Doctor() {
   return (
     <>
       <div className="doctor">
-        <div className="doctor-frame">
+        <div className="dp-flex flex-row doctor-frame">
           <Title title="Állatorvosok" />
           <MoreButton className="doctor" />
           <DoctorCard
@@ -24,8 +24,8 @@ export default function Doctor() {
       <div className="doctor-desk">
         <Title title="Állatorvosok" />
         <MoreButton className="doctor" />
-        <div className="doctor-frame">
-          <div className="doctor-inside-frame-1">
+        <div className="dp-flex flex-row doctor-frame">
+          <div className="dp-flex flex-col doctor-inside-frame-1">
             <DoctorCard
               background={veterinaryImage}
               title="Kiskedvenc állatorvos"
@@ -41,7 +41,7 @@ export default function Doctor() {
               text="Sed ut perspiciatis unde omnis iste natus error sit volupt..."
             />
           </div>
-          <div className="doctor-inside-frame-2">
+          <div className="dp-flex flex-col doctor-inside-frame-2">
             <DoctorCard
               background={veterinaryImage}
               title="Kiskedvenc állatorvos"

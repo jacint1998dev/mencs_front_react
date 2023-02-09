@@ -25,8 +25,20 @@
     display: none;
   }
 
-  .menu-nav-div {
+  .dp-flex.flex-row.menu-nav-div {
     display: none;
+  }
+
+  .dp-flex {
+    display: flex;
+  }
+
+  .flex-row {
+    flex-direction: row;
+  }
+
+  .flex-col {
+    flex-direction: column;
   }
 
   .button-more-animals {
@@ -85,8 +97,6 @@
   }
 
   .fa-solid.fa-bars.nav-bar-icon {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0px;
     gap: 15px;
@@ -98,10 +108,11 @@
     top: 17px;
 
   }
+  .menu-button {
+    display: none;
+  }
 
   .fa-solid.fa-user.nav-user-icon {
-    display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     padding: 0px;
@@ -142,8 +153,6 @@
 
   .hero-button {
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0px 15px;
     gap: 15px;
@@ -428,8 +437,6 @@
   }
 
   .small-animal-cards {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 22px;
@@ -442,8 +449,6 @@
   }
 
   .small-card-frame {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     padding: 0px;
     gap: 15px;
@@ -486,8 +491,6 @@
   }
 
   .big-animal-cards-1 {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 25px;
@@ -523,8 +526,6 @@
   }
 
   .big-card-name-frame-1 {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 20px;
     gap: 1px;
@@ -537,9 +538,8 @@
     background: #FFEFEB;
     border-radius: 16px;
   }
+
   .big-card-name-frame-2 {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 20px;
     gap: 1px;
@@ -551,9 +551,8 @@
     background: #FFEFEB;
     border-radius: 16px;
   }
+
   .big-card-name-frame-3 {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 20px;
     gap: 1px;
@@ -565,9 +564,8 @@
     background: #FFEFEB;
     border-radius: 16px;
   }
+
   .big-card-name-frame-4 {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 20px;
     gap: 1px;
@@ -581,8 +579,6 @@
   }
 
   .big-card-name-inside-frame {
-    flex-direction: row;
-    align-items: flex-start;
     padding: 0px;
     gap: 15px;
     width: 180px;
@@ -593,7 +589,6 @@
   }
 
   .big-card-name {
-    display: flex;
     width: 79px;
     height: 27px;
     font-weight: 700;
@@ -606,8 +601,6 @@
   }
 
   .big-card-name-frame-2 {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 15px;
@@ -619,8 +612,6 @@
   }
 
   .big-card-frame-3 {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 6px;
@@ -653,8 +644,6 @@
   }
 
   .shelter-cards {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 25px;
@@ -667,8 +656,6 @@
   }
 
   .shelter-card-box {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 24px;
     gap: 10px;
@@ -683,8 +670,6 @@
   }
 
   .shelter-text-frame {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 4px;
@@ -710,8 +695,6 @@
   }
 
   .shelter-content {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
@@ -739,8 +722,6 @@
   }
 
   .doctor-frame {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
@@ -783,8 +764,6 @@
   }
 
   .doctor-card-frame {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
 
@@ -808,8 +787,6 @@
   }
 
   .doctor-card-text {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     width: 145px;
@@ -886,8 +863,6 @@
   }
 
   .boarding-location-text-frame {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 0px;
@@ -913,8 +888,6 @@
   }
 
   .boarding-text-body {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
@@ -962,7 +935,6 @@
     z-index: -1;
   }
 
-  /*Media Queries*/
   .fa-solid.fa-paw.paw-2 {
     position: absolute;
     left: 19.71%;
@@ -1240,7 +1212,16 @@
     font-family: 'Comfortaa';
     font-style: normal;
   }
+  .dp-flex{
+    display: flex;
+  }
 
+  .flex-col{
+    flex-direction: column;
+  }
+  .flex-row{
+    flex-direction: row;
+  }
   .menu-nav {
     position: absolute;
     width: 1920px;
@@ -1286,8 +1267,6 @@
   }
 
   .menu-nav-div {
-    display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     padding: 0px;
@@ -1326,8 +1305,6 @@
 
   .menu-nav-div-language {
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0px 15px;
     gap: 10px;
@@ -1372,8 +1349,6 @@
   }
 
   .menu-nav-div-inside-lang-box {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0px;
     gap: 10px;
@@ -1385,8 +1360,6 @@
   }
 
   .menu-nav-menu {
-    display: flex;
-    flex-direction: row;
     justify-content: flex-end;
     align-items: center;
     padding: 0px;
@@ -1421,8 +1394,6 @@
   }
 
   .hero-button {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0px 15px;
     gap: 15px;
@@ -1436,6 +1407,19 @@
     font-weight: 700;
     font-size: medium;
   }
+    .hero-button-text {
+      width: 86px;
+      height: 18px;
+      font-family: 'Comfortaa';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 18px;
+      color: #2B2A29;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
 
   .mobile-slider-menu {
     position: absolute;
@@ -1496,8 +1480,6 @@
 
   .dropdown-2 {
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0px 15px;
     gap: 100px;
@@ -1512,8 +1494,6 @@
 
   .dropdown-1 {
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0px 15px;
     gap: 100px;
@@ -1527,8 +1507,6 @@
   }
 
   .animal-search-button {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0px 15px;
     gap: 15px;
@@ -1557,8 +1535,6 @@
   }
 
   .animal-frame {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 84px;
@@ -1571,8 +1547,6 @@
   }
 
   .animal-frame-row-1 {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 0px;
@@ -1588,10 +1562,11 @@
     display: none;
   }
 
-  .big-animal-card{
+  .big-animal-card {
     width: 285px;
     height: 255px;
-    border-radius: 25px;}
+    border-radius: 25px;
+  }
 
 
   .animal-heart-icon {
@@ -1604,8 +1579,6 @@
   }
 
   .big-animal-card-textarea-1 {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 20px;
     gap: 1px;
@@ -1619,9 +1592,8 @@
     background: #fbded7;
     border-radius: 16px;
   }
+
   .big-animal-card-textarea-2 {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 20px;
     gap: 1px;
@@ -1633,9 +1605,8 @@
     background: #fbded7;
     border-radius: 16px;
   }
+
   .big-animal-card-textarea-3 {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 20px;
     gap: 1px;
@@ -1647,9 +1618,8 @@
     background: #fbded7;
     border-radius: 16px;
   }
+
   .big-animal-card-textarea-4 {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 20px;
     gap: 1px;
@@ -1661,9 +1631,8 @@
     background: #fbded7;
     border-radius: 16px;
   }
+
   .big-animal-card-textarea-5 {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 20px;
     gap: 1px;
@@ -1675,9 +1644,8 @@
     background: #fbded7;
     border-radius: 16px;
   }
+
   .big-animal-card-textarea-6 {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 20px;
     gap: 1px;
@@ -1689,9 +1657,8 @@
     background: #fbded7;
     border-radius: 16px;
   }
+
   .big-animal-card-textarea-7 {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 20px;
     gap: 1px;
@@ -1703,9 +1670,8 @@
     background: #fbded7;
     border-radius: 16px;
   }
+
   .big-animal-card-textarea-8 {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 20px;
     gap: 1px;
@@ -1718,8 +1684,6 @@
   }
 
   .big-animal-card-textarea-inside {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 15px;
@@ -1746,8 +1710,6 @@
   }
 
   .big-animal-card-textarea-inside-2 {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 6px;
@@ -1787,18 +1749,15 @@
   }
 
   .shelter-card-box {
-    display: flex;
-    flex-direction: row;
+  
     align-items: flex-start;
     padding: 24px;
     gap: 10px;
-
     width: 304px;
     height: 364px;
     background: #fae3e3;
     box-shadow: 0px 10px 10px rgba(43, 42, 41, 0.15);
     border-radius: 12px;
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -2029,6 +1988,31 @@
     transform: rotate(55.41deg);
   }
 
+  .menu-button {
+    align-items: center;
+    padding: 0px 15px;
+    gap: 15px;
+    position: absolute;
+    width: 125px;
+    height: 50px;
+    left: 203px;
+    top: 742px;
+    background: #F2DDC1;
+    border-radius: 25px;
+  }
+  .menu-button-text {
+    width: 86px;
+    height: 18px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2B2A29;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
   .fa-solid.fa-paw.paw-17 {
     position: absolute;
     left: 32.21%;
@@ -2119,8 +2103,6 @@
   }
 
   .dropdown {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0px 15px;
     gap: 100px;
@@ -2157,8 +2139,6 @@
   }
 
   .flex-dropdown {
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
   }
 
@@ -2241,8 +2221,6 @@
   }
 
   .shelter-cards {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 20px;
@@ -2262,8 +2240,6 @@
   }
 
   .doctor-frame {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
@@ -2275,8 +2251,6 @@
   }
 
   .doctor-inside-frame-1 {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 20px;
@@ -2288,8 +2262,6 @@
   }
 
   .doctor-inside-frame-2 {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 20px;
@@ -2321,8 +2293,6 @@
   }
 
   .doctor-contact-desk {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 15px;
     gap: 10px;
@@ -2338,8 +2308,6 @@
   }
 
   .doctor-card-content {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0px;
     gap: 15px;
@@ -2362,8 +2330,6 @@
   }
 
   .doctor-content-inside {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
@@ -2375,8 +2341,6 @@
   }
 
   .doctor-content-inside-2 {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 6px;
@@ -2388,8 +2352,6 @@
   }
 
   .doctor-content-inside-3 {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 2px;
@@ -2465,8 +2427,6 @@
   }
 
   .boarding-frame-inside-1 {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 20px;
@@ -2478,8 +2438,6 @@
   }
 
   .boarding-frame-inside-2 {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 20px;
@@ -2495,8 +2453,6 @@
   }
 
   .boarding-location-frame-desk {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 15px;
     gap: 10px;
@@ -2511,8 +2467,6 @@
   }
 
   .boarding-frame-content {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 0px;
     gap: 15px;
@@ -2524,8 +2478,6 @@
   }
 
   .boarding-frame-bottom-buttons {
-    display: flex;
-    flex-direction: row;
     align-items: flex-start;
     margin-top: 10px;
     margin-left: 10px;
@@ -2549,8 +2501,6 @@
   }
 
   .boarding-frame-content-text {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 8px;
@@ -2562,8 +2512,6 @@
   }
 
   .boarding-frame-content-text-inside {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 2px;
@@ -2603,8 +2551,6 @@
   }
 
   .tags {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     padding: 6px 10px;
     gap: 10px;

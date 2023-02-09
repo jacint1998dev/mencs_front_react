@@ -8,7 +8,7 @@ export default function Hero() {
         <br />
         és csatlakozz hozzánk!
       </p>
-      <button className="hero-button">
+      <button className="dp-flex flex-row hero-button">
         <p className="hero-button-text">Adoptálás</p>
       </button>
     </div>

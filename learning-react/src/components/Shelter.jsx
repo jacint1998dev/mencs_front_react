@@ -9,7 +9,7 @@ export default function Shelter() {
   return (
     <>
       <div className="shelter">
-        <div className="shelter-cards">
+        <div className="dp-flex flex-row shelter-cards">
           <ShelterCards
             image={shelterImage}
             name="Lorem Ipsum"

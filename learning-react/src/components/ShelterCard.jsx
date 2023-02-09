@@ -9,10 +9,10 @@ export default function ShelterCards(props) {
   };
 
   return (
-    <div className="shelter-card-box">
-      <div className="shelter-content">
+    <div className="dp-flex flex-row shelter-card-box">
+      <div className="dp-flex flex-col shelter-content">
         <img src={props.image} alt=""></img>
-        <div className="shelter-text-frame">
+        <div className="dp-flex flex-col shelter-text-frame">
           <h2 className="shelter-name">{props.name}</h2>
           <p className="shelter-text">{props.text}</p>
         </div>

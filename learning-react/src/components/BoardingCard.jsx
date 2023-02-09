@@ -11,25 +11,25 @@ export default function BoardingCard(props) {
     <>
       <div className="boarding-locations-frame">
         <img src={petsImage} alt="" className="boarding-pets-image" />
-        <div className="boarding-location-text-frame">
+        <div className="dp-flex flex-col boarding-location-text-frame">
           <h3 className="boarding-text-title">{props.title}</h3>
-          <div className="boarding-text-body">
+          <div className="dp-flex flex-col boarding-text-body">
             <p className="boarding-text-content">{props.text}</p>
           </div>
         </div>
       </div>
-      <div className="boarding-location-frame-desk">
+      <div className="dp-flex flex-col boarding-location-frame-desk">
         <div className="boarding-location-frame-inside">
-          <div className="boarding-frame-content">
+          <div className="dp-flex flex-row boarding-frame-content">
             <img src={petsImage} alt="" className="boarding-frame-img"></img>
-            <div className="boarding-frame-content-text">
-              <div className="boarding-frame-content-text-inside">
+            <div className="dp-flex flex-col boarding-frame-content-text">
+              <div className="dp-flex flex-col boarding-frame-content-text-inside">
                 <h2 className="boarding-frame-title">{props.title}</h2>
               </div>
               <p className="boarding-frame-text">{props.text}</p>
             </div>
           </div>
-          <div className="boarding-frame-bottom-buttons">
+          <div className="dp-flex flex-row boarding-frame-bottom-buttons">
             <Tags content="kutya" />
             <Tags content="kozmetika" />
             <Tags content="gondoskodás" />

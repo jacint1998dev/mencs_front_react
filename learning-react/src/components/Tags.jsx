@@ -6,7 +6,7 @@ export default function Tags(props) {
   };
   return (
     <>
-      <div className="tags">
+      <div className="dp-flex flex-row tags">
         <p className="tags-text">{props.content}</p>
       </div>
     </>

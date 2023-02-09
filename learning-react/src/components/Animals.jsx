@@ -13,8 +13,8 @@ export default function Animals() {
   return (
     <>
       <div className="animals-desk">
-        <div className="flex-col animal-frame">
-          <div className="animal-frame-row-1">
+        <div className="dp-flex flex-col animal-frame">
+          <div className="dp-flex flex-row animal-frame-row-1">
             <BigAnimalCard
               id="1"
               background={catImage}
@@ -66,35 +66,35 @@ export default function Animals() {
           </div>
         </div>
         <MoreButton className="animals" />
-        <button className="animal-search-button">
+        <button className="dp-flex flex-row animal-search-button">
           <p className="search-button-text">Részletes keresés</p>
         </button>
-        <div className="dropdown-1">
+        <div className="dp-flex flex-row dropdown-1">
           <p className="dropdown-text">Kor</p>
           <i className="fa-solid fa-caret-down"></i>
         </div>
-        <div className="dropdown-2">
+        <div className="dp-flex flex-row dropdown-2">
           <p className="dropdown-text">Állat</p>
           <i className="fa-solid fa-caret-down"></i>
         </div>
       </div>
 
       <div className="animals">
-        <div className="flex-dropdown"></div>
+        <div className="dp-flex flex-row flex-dropdown"></div>
         <div className="animals-frame">
           <div className="animals-adopt">
             <Title title="Adoptáció" />
             <MoreButton className="" />
           </div>
           <Ellipse name="mobile-slider-1" />
-          <div className="small-animal-cards">
+          <div className="dp-flex flex-row small-animal-cards">
             <SmallAnimalCard text="Kutya" />
             <SmallAnimalCard text="Cica" />
             <SmallAnimalCard text="Nyúl" />
             <SmallAnimalCard text="Madár" />
           </div>
         </div>
-        <div className="big-animal-cards-1">
+        <div className="dp-flex flex-row big-animal-cards-1">
           <BigAnimalCard
             id="1"
             background={catImage}

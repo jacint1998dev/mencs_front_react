@@ -11,7 +11,7 @@ export default function SmallAnimalCard(props) {
     return beige_colors[Math.floor(Math.random() * beige_colors.length)];
   }
   return (
-    <div className="small-card-frame">
+    <div className="dp-flex flex-col small-card-frame">
       <div
         className="small-card-rectangle"
         style={{ backgroundColor: getRandomColor() }}

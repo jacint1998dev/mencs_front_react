@@ -6,13 +6,13 @@ export default function Menu() {
   return (
     <>
       <nav className="menu-nav">
-        <i className="fa-solid fa-bars nav-bar-icon"></i>
-        <i className="fa-solid fa-user nav-user-icon"></i>
-        <div className="menu-nav-div">
+        <i className="dp-flex flex-row fa-solid fa-bars nav-bar-icon"></i>
+        <i className="dp-flex flex-row fa-solid fa-user nav-user-icon"></i>
+        <div className="dp-flex flex-row menu-nav-div">
           <p className="menu-nav-div-adop">Adoptáció</p>
           <p className="menu-nav-div-login">Bejelentkezés</p>
-          <div className="menu-nav-div-language">
-            <div className="menu-nav-div-inside-lang-box">
+          <div className="dp-flex flex-row menu-nav-div-language">
+            <div className="dp-flex flex-row menu-nav-div-inside-lang-box">
               <img
                 className="menu-nav-div-language-flag"
                 src={image}
@@ -22,7 +22,7 @@ export default function Menu() {
             </div>
             <i className="fa-solid fa-caret-down menu-nav-div-language-down"></i>
           </div>
-          <div className="menu-nav-menu">
+          <div className="dp-flex flex-row menu-nav-menu">
             <p className="menu-nav-menu-text">Menü</p>
             <i className="fa-solid fa-bars menu-nav-menu-bar-icon"></i>
           </div>
@@ -32,6 +32,7 @@ export default function Menu() {
       <p className="menu-nav-small-text">
         Fogadj örökbe te is egy szeretetbombát.
       </p>
+      <button className="menu-button"><p className="menu-button-text">Adoptálás</p></button>
       <Ellipse name="mobile-slider-menu" />
     </>
   );

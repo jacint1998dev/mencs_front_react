@@ -22,7 +22,7 @@ export default function Boarding() {
       <div className="boarding-desk">
         <Title title="Állat panziók" />
         <div className="boarding-frame">
-          <div className="boarding-frame-inside-1">
+          <div className="dp-flex flex-col boarding-frame-inside-1">
             <BoardingCard
               title="Lorem kutyapanzió"
               text="Sed ut perspiciatis unde omnis iste natus error..."
@@ -32,7 +32,7 @@ export default function Boarding() {
               text="Sed ut perspiciatis unde omnis iste natus error..."
             />
           </div>
-          <div className="boarding-frame-inside-2">
+          <div className="dp-flex flex-col boarding-frame-inside-2">
             <BoardingCard
               title="Lorem kutyapanzió"
               text="Sed ut perspiciatis unde omnis iste natus error..."

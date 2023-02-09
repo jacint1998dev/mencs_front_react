@@ -20,25 +20,25 @@ export default function DoctorCard(props) {
             backgroundImage: `url(${props.background})`,
           }}
         ></div>
-        <div className="doctor-card-frame">
+        <div className="dp-flex flex-col doctor-card-frame">
           <h3 className="doctor-card-title">{props.title}</h3>
-          <div className="doctor-card-text">
+          <div className="dp-flex flex-col doctor-card-text">
             <p className="doctor-location">{props.location}</p>
             <p className="doctor-open-time">{props.time}</p>
           </div>
         </div>
       </div>
-      <div className="doctor-contact-desk">
-        <div className="doctor-card-content">
+      <div className="dp-flex flex-col doctor-contact-desk">
+        <div className="dp-flex flex-row doctor-card-content">
           <img
             src={veterinaryImage}
             alt=""
             className="doctor-card-contact-img"
           />
-          <div className="doctor-content-inside">
-            <div className="doctor-content-inside-2">
+          <div className="dp-flex flex-col doctor-content-inside">
+            <div className="dp-flex flex-col doctor-content-inside-2">
               <p className="doctor-content-inside-date">{props.time}</p>
-              <div className="doctor-content-inside-3">
+              <div className="dp-flex flex-col doctor-content-inside-3">
                 <h2 className="doctor-content-inside-title">{props.title}</h2>
                 <p className="doctor-content-inside-text">{props.text}</p>
               </div>
