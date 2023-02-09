@@ -1,14 +1,14 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
-export default function Title(props){
-    Title.propTypes = {
-        title: PropTypes.string
-    }
+export default function Title(props) {
+  Title.propTypes = {
+    title: PropTypes.string,
+  };
 
-    return(
-        <>
-        <h2 className="title">{props.title}</h2>
-        </>
-    )
+  return (
+    <>
+      <h2 className="title">{props.title}</h2>
+    </>
+  );
 }

@@ -5,7 +5,7 @@ export default function BigAnimalCard(props) {
     background: PropTypes.string.isRequired,
     name: PropTypes.string,
     text: PropTypes.string,
-    id: PropTypes.number
+    id: PropTypes.number,
   };
 
   return (
