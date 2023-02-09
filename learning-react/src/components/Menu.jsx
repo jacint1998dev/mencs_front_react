@@ -6,8 +6,8 @@ export default function Menu() {
   return (
     <>
       <nav className="menu-nav">
-        <i className="dp-flex flex-row fa-solid fa-bars nav-bar-icon"></i>
-        <i className="dp-flex flex-row fa-solid fa-user nav-user-icon"></i>
+        <i className="p-0 dp-flex flex-row fa-solid fa-bars nav-bar-icon"></i>
+        <i className="p-0 dp-flex flex-row fa-solid fa-user nav-user-icon"></i>
         <div className="dp-flex flex-row menu-nav-div">
           <p className="menu-nav-div-adop">Adoptáció</p>
           <p className="menu-nav-div-login">Bejelentkezés</p>

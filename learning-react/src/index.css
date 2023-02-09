@@ -9,6 +9,9 @@
     font-style: normal;
   }
 
+  .p-0{
+    padding: 0px;
+  }
   .menu-nav {
     position: absolute;
     width: 375px;
@@ -40,7 +43,7 @@
   .flex-col {
     flex-direction: column;
   }
-
+  
   .button-more-animals {
     box-sizing: border-box;
     display: flex;
@@ -98,16 +101,14 @@
 
   .fa-solid.fa-bars.nav-bar-icon {
     align-items: center;
-    padding: 0px;
     gap: 15px;
-
     position: absolute;
     width: 36px;
     height: 36px;
     left: 20px;
     top: 17px;
-
   }
+
   .menu-button {
     display: none;
   }
@@ -115,7 +116,6 @@
   .fa-solid.fa-user.nav-user-icon {
     justify-content: flex-end;
     align-items: center;
-    padding: 0px;
     gap: 15px;
 
     position: absolute;
@@ -438,7 +438,6 @@
 
   .small-animal-cards {
     align-items: flex-start;
-    padding: 0px;
     gap: 22px;
     position: absolute;
     width: 326px;
@@ -450,7 +449,6 @@
 
   .small-card-frame {
     align-items: center;
-    padding: 0px;
     gap: 15px;
     width: 70px;
     height: 105px;
@@ -516,15 +514,38 @@
     display: none;
   }
 
-  .fa-regular.fa-heart {
-    color: white;
+  .animal-heart-icon-1{
     position: absolute;
     width: 36px;
     height: 36px;
-    left: 250px;
-    top: 20px;
+    left: 234px;
+    top: 15px;
+    color:white;    
   }
-
+  .animal-heart-icon-2{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 550px;
+    top: 15px;
+    color:white;    
+  }
+  .animal-heart-icon-3{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 855px;
+    top: 15px;
+    color:white;    
+  }
+  .animal-heart-icon-4{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 1170px;
+    top: 15px;
+    color:white;    
+  }
   .big-card-name-frame-1 {
     align-items: flex-start;
     padding: 20px;
@@ -578,15 +599,7 @@
     border-radius: 16px;
   }
 
-  .big-card-name-inside-frame {
-    padding: 0px;
-    gap: 15px;
-    width: 180px;
-    height: 64px;
-    order: 0;
-    flex: none;
-    flex-grow: 0;
-  }
+
 
   .big-card-name {
     width: 79px;
@@ -600,7 +613,7 @@
     flex-grow: 0;
   }
 
-  .big-card-name-frame-2 {
+  .big-card-name-frame-inside-2 {
     align-items: flex-start;
     padding: 0px;
     gap: 15px;
@@ -611,7 +624,7 @@
     flex-grow: 0;
   }
 
-  .big-card-frame-3 {
+  .big-card-frame-inside-3 {
     align-items: flex-start;
     padding: 0px;
     gap: 6px;
@@ -1212,16 +1225,21 @@
     font-family: 'Comfortaa';
     font-style: normal;
   }
-  .dp-flex{
+  .p-0{
+    padding: 0px;
+  }
+  .dp-flex {
     display: flex;
   }
 
-  .flex-col{
+  .flex-col {
     flex-direction: column;
   }
-  .flex-row{
+
+  .flex-row {
     flex-direction: row;
   }
+
   .menu-nav {
     position: absolute;
     width: 1920px;
@@ -1407,19 +1425,20 @@
     font-weight: 700;
     font-size: medium;
   }
-    .hero-button-text {
-      width: 86px;
-      height: 18px;
-      font-family: 'Comfortaa';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 18px;
-      color: #2B2A29;
-      flex: none;
-      order: 1;
-      flex-grow: 0;
-    }
+
+  .hero-button-text {
+    width: 86px;
+    height: 18px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2B2A29;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
 
   .mobile-slider-menu {
     position: absolute;
@@ -1569,13 +1588,69 @@
   }
 
 
-  .animal-heart-icon {
+  .animal-heart-icon-1 {
     color: white;
     position: absolute;
     width: 36px;
     height: 36px;
     left: 234px;
     top: 15px;
+  }
+  .animal-heart-icon-2 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 570px;
+    top: 15px;
+  }
+  .animal-heart-icon-3 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 905px;
+    top: 15px;
+  }
+  .animal-heart-icon-4 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 1234px;
+    top: 15px;
+  }
+  .animal-heart-icon-5 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 234px;
+    top: 330px;
+  }
+  .animal-heart-icon-6 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 570px;
+    top: 330px;
+  }
+  .animal-heart-icon-7 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 905px;
+    top: 330px;
+  }
+  .animal-heart-icon-8 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 1230px;
+    top: 330px;
   }
 
   .big-animal-card-textarea-1 {
@@ -1586,7 +1661,7 @@
 
     position: absolute;
     width: 238px;
-    height: 104px;
+    height: 80px;
     left: 4px;
     top: 205px;
     background: #fbded7;
@@ -1601,7 +1676,7 @@
     top: 205px;
     position: absolute;
     width: 238px;
-    height: 104px;
+    height: 80px;
     background: #fbded7;
     border-radius: 16px;
   }
@@ -1614,7 +1689,7 @@
     top: 205px;
     position: absolute;
     width: 238px;
-    height: 104px;
+    height: 80px;
     background: #fbded7;
     border-radius: 16px;
   }
@@ -1627,7 +1702,7 @@
     top: 205px;
     position: absolute;
     width: 238px;
-    height: 104px;
+    height: 80px;
     background: #fbded7;
     border-radius: 16px;
   }
@@ -1640,7 +1715,7 @@
     top: 500px;
     position: absolute;
     width: 238px;
-    height: 104px;
+    height: 80px;
     background: #fbded7;
     border-radius: 16px;
   }
@@ -1653,7 +1728,7 @@
     top: 500px;
     position: absolute;
     width: 238px;
-    height: 104px;
+    height: 80px;
     background: #fbded7;
     border-radius: 16px;
   }
@@ -1666,7 +1741,7 @@
     position: absolute;
     top: 500px;
     width: 238px;
-    height: 104px;
+    height: 80px;
     background: #fbded7;
     border-radius: 16px;
   }
@@ -1678,7 +1753,7 @@
     position: absolute;
     top: 500px;
     width: 238px;
-    height: 104px;
+    height: 80px;
     background: #fbded7;
     border-radius: 16px;
   }
@@ -1699,10 +1774,10 @@
 
   .big-animal-card-name {
     width: 69px;
-    height: 27px;
+    height: 0px;
     font-weight: 700;
     font-size: 24px;
-    line-height: 27px;
+    line-height: 0px;
     color: #2B2A29;
     flex: none;
     order: 0;
@@ -1714,7 +1789,7 @@
     padding: 0px;
     gap: 6px;
     width: 198px;
-    height: 22px;
+    height: 0px;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -1722,7 +1797,7 @@
 
   .big-animal-card-textarea-inside-2-text {
     width: 198px;
-    height: 22px;
+    height: 0px;
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
@@ -1749,7 +1824,7 @@
   }
 
   .shelter-card-box {
-  
+
     align-items: flex-start;
     padding: 24px;
     gap: 10px;
@@ -2000,6 +2075,7 @@
     background: #F2DDC1;
     border-radius: 25px;
   }
+
   .menu-button-text {
     width: 86px;
     height: 18px;
@@ -2013,6 +2089,7 @@
     order: 1;
     flex-grow: 0;
   }
+
   .fa-solid.fa-paw.paw-17 {
     position: absolute;
     left: 32.21%;

@@ -5,7 +5,7 @@ export default function BigAnimalCard(props) {
     background: PropTypes.string.isRequired,
     name: PropTypes.string,
     text: PropTypes.string,
-    id: PropTypes.number,
+    id: PropTypes.string,
   };
 
   return (
@@ -16,7 +16,7 @@ export default function BigAnimalCard(props) {
           backgroundImage: `url(${props.background})`,
         }}
       >
-        <i className="fa-regular fa-heart animal-heart-icon"></i>
+        <i className={`fa-regular fa-heart animal-heart-icon-${props.id}`}></i>
         <div className={`dp-flex flex-row big-animal-card-textarea-${props.id}`}>
           <div className="dp-flex flex-col big-animal-card-textarea-inside">
             <h2 className="big-animal-card-name">{props.name}</h2>
@@ -35,11 +35,11 @@ export default function BigAnimalCard(props) {
           backgroundImage: `url(${props.background})`,
         }}
       >
-        <i className="fa-regular fa-heart animal-heart-icon"></i>
+        <i className={`fa-regular fa-heart animal-heart-icon-${props.id}`}></i>
         <div className={`dp-flex flex-row big-card-name-frame-${props.id}`}>
-          <div className="dp-flex flex-col big-card-name-frame-2">
+          <div className="dp-flex flex-col big-card-name-frame-inside-2">
             <h2 className="dp-flex big-card-name">{props.name}</h2>
-            <div className="dp-flex flex-col big-card-frame-3">
+            <div className="dp-flex flex-col big-card-frame-inside-3">
               <p className="big-card-text">{props.text}</p>
             </div>
           </div>

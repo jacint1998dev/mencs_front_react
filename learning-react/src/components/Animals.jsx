@@ -87,14 +87,14 @@ export default function Animals() {
             <MoreButton className="" />
           </div>
           <Ellipse name="mobile-slider-1" />
-          <div className="dp-flex flex-row small-animal-cards">
+          <div className="p-0 dp-flex flex-row small-animal-cards">
             <SmallAnimalCard text="Kutya" />
             <SmallAnimalCard text="Cica" />
             <SmallAnimalCard text="Nyúl" />
             <SmallAnimalCard text="Madár" />
           </div>
         </div>
-        <div className="dp-flex flex-row big-animal-cards-1">
+        <div className="p-0 dp-flex flex-row big-animal-cards-1">
           <BigAnimalCard
             id="1"
             background={catImage}
