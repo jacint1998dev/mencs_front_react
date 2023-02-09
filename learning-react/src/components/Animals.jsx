@@ -13,7 +13,7 @@ export default function Animals() {
   return (
     <>
       <div className="animals-desk">
-        <div className="animal-frame">
+        <div className="flex-col animal-frame">
           <div className="animal-frame-row-1">
             <BigAnimalCard
               id="1"
