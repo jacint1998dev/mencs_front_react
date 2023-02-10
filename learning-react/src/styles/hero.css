@@ -1,0 +1,77 @@
+@media screen and (max-width: 480px){
+  .hero {
+    position: absolute;
+    width: 325px;
+    height: 125px;
+    left: 25px;
+    top: 149px;
+    background: #fae0c3;
+    border-radius: 25px;
+  }
+
+  .hero-button {
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0px 15px;
+    gap: 15px;
+    position: absolute;
+    width: 116px;
+    height: 40px;
+    left: 194px;
+    top: 70px;
+    background: #FFFAFA;
+    border: 2px solid #2B2A29;
+    border-radius: 25px;
+  }
+
+  .hero-button-text {
+    width: 86px;
+    height: 18px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2B2A29;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .hero-text {
+    position: absolute;
+    width: 189px;
+    height: 42px;
+    left: 20px;
+    top: 24px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    /* black */
+
+    color: #2B2A29;
+  }
+}
+
+@media screen and (min-width: 480px) {
+
+  .hero {
+    display: none;
+  }
+  
+  .hero-button-text {
+    width: 86px;
+    height: 18px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2B2A29;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+ 
+}

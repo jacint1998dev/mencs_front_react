@@ -1,0 +1,245 @@
+@media screen and (max-width: 480px) {
+
+  .menu-nav {
+    position: absolute;
+    width: 375px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+  }
+  .dp-flex.flex-row.menu-nav-div {
+    display: none;
+  }
+  
+  .fa-solid.fa-bars.nav-bar-icon {
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 20px;
+    top: 17px;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .fa-solid.fa-user.nav-user-icon {
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 20px;
+    top: 17px;
+  }
+
+  .menu-nav-big-text {
+    position: absolute;
+    width: 283px;
+    height: 42px;
+    left: 25px;
+    top: 90px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2B2A29;
+  }
+
+  .menu-nav-small-text {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 480px){
+
+  .mobile-slider-menu {
+    display: none;
+  }
+  .menu-nav {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background: url(../src/images/dog_bg.png);
+    background-repeat: no-repeat;
+    background-size: 1920px 920px;
+    opacity: 0.9;
+  }
+  
+  .fa-solid.fa-bars.nav-bar-icon {
+    display: none;
+  }
+
+  .fa-solid.fa-user.nav-user-icon {
+    display: none;
+  }
+
+  .menu-nav-big-text {
+    position: absolute;
+    width: 530px;
+    height: 108px;
+    left: 150px;
+    top: 500px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    color: #050505;
+  }
+
+  .menu-nav-small-text {
+    position: absolute;
+    width: 504px;
+    height: 27px;
+    left: 155px;
+    top: 650px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #030303;
+  }
+
+  .menu-nav-div {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 648px;
+    height: 50px;
+    right: 322px;
+    top: 40px;
+  }
+
+  .menu-nav-div-adop {
+    width: 109px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #2B2A29;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .menu-nav-div-login {
+    width: 109px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #2B2A29;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .menu-nav-div-language {
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0px 15px;
+    gap: 10px;
+    width: 180px;
+    height: 50px;
+    border: 2px solid #2B2A29;
+    border-radius: 15px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  .menu-nav-div-language-flag {
+    width: 36px;
+    height: 36px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .menu-nav-div-language-name {
+    width: 81px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #2B2A29;
+    flex: none;
+    order: 1;
+    flex-grow: 0
+  }
+
+  .menu-nav-div-language-down {
+
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+
+  .menu-nav-div-inside-lang-box {
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 127px;
+    height: 36px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .menu-nav-menu {
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+
+    width: 111px;
+    height: 36px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+  }
+
+  .menu-nav-menu-text {
+    width: 60px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: right;
+    color: #2B2A29;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .menu-nav-menu-bar-icon {
+    position: relative;
+    left: 0%;
+    right: 12.5%;
+    top: 0%;
+    bottom: 25%;
+  }
+  .menu-button-text {
+    width: 86px;
+    height: 18px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2B2A29;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}

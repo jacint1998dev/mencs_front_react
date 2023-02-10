@@ -1,0 +1,130 @@
+@media screen and (max-width: 480px) {
+  
+  .footer {
+    position: absolute;
+    width: 375px;
+    height: 250px;
+    left: 0px;
+    top: 1913px;
+    background: #fae0c3;
+  }
+
+  .footer-logo {
+    position: absolute;
+    width: 45px;
+    height: 13px;
+    left: 154px;
+    top: 219px;
+  }
+
+  .footer-list {
+    position: absolute;
+    width: 109px;
+    height: 117px;
+    left: 133px;
+    top: 50px;
+  }
+
+  .footer-list-item-1 {
+    position: absolute;
+    width: 57px;
+    height: 18px;
+    left: 26px;
+    top: 0px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #2B2A29;
+  }
+
+  .footer-list-item-2 {
+    position: absolute;
+    width: 45px;
+    height: 18px;
+    left: 32px;
+    top: 99px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #2B2A29;
+  }
+
+  .footer-list-item-3 {
+    position: absolute;
+    width: 39px;
+    height: 18px;
+    left: 35px;
+    top: 66px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #2B2A29;
+
+  }
+
+  .footer-list-item-4 {
+    position: absolute;
+    width: 109px;
+    height: 18px;
+    left: 0px;
+    top: 33px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #2B2A29;
+
+  }
+  .footer-line {
+    position: absolute;
+    width: 350px;
+    height: 0px;
+    left: 13px;
+    top: 207px;
+    border: 1px solid rgba(43, 42, 41, 0.2);
+  }
+
+}
+
+@media screen and (min-width: 480px){
+  .footer {
+    position: absolute;
+    width: 1920px;
+    height: 402px;
+    left: 0px;
+    top: 3400px;
+    background: #edd1ca;
+  }
+
+  .footer-list {
+    position: absolute;
+    width: 109px;
+    height: 168px;
+    left: 920px;
+    top: 117px;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .footer-line {
+
+    position: absolute;
+    width: 1870px;
+    height: 0px;
+    left: 25px;
+    top: 356px;
+    border: 1px solid rgba(43, 42, 41, 0.1);
+  }
+
+  .footer-logo {
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    left: 950px;
+    top: 371px;
+  }
+
+}

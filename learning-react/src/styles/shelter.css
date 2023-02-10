@@ -1,0 +1,149 @@
+@media screen and (max-width: 480px){
+  .button-more-shelter {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 15px;
+    gap: 15px;
+    position: absolute;
+    width: 72px;
+    height: 40px;
+    left: 253px;
+    top: 10px;
+    background: #FFFAFA;
+    border: 2px solid #2B2A29;
+    border-radius: 25px;
+  }
+  .shelter {
+    position: absolute;
+    width: 633px;
+    height: 446px;
+    left: 25px;
+    top: 891px;
+  }
+
+  .shelter-cards {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+    position: absolute;
+    width: 325px;
+    height: 364px;
+    left: 0px;
+    top: 65px;
+    overflow-x: scroll;
+  }
+
+  .shelter-card-box {
+    align-items: flex-start;
+    padding: 24px;
+    gap: 10px;
+    width: 240px;
+    height: 364px;
+    background: #fcdcdc;
+    box-shadow: 10px 10px 10px rgba(102, 69, 37, 0.15);
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .shelter-text-frame {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 256px;
+    height: 119px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .shelter-name {
+    width: 256px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #2B2A29;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .shelter-content {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 256px;
+    height: 316px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .shelter-title {
+    position: absolute;
+    width: 325px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+  }
+
+}
+
+@media screen and (min-width: 480px){
+  .shelter-card-box {
+
+    align-items: flex-start;
+    padding: 24px;
+    gap: 10px;
+    width: 304px;
+    height: 364px;
+    background: #fae3e3;
+    box-shadow: 0px 10px 10px rgba(43, 42, 41, 0.15);
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .button-more-shelter {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 15px;
+    position: absolute;
+    width: 56px;
+    height: 50px;
+    left: 1335px;
+    top: 200px;
+    background: #FFFAFA;
+    border: 2px solid #2B2A29;
+    border-radius: 25px;
+  }
+
+  .shelter {
+    position: absolute;
+    width: 1276px;
+    height: 423px;
+    left: 323px;
+    top: 1920px;
+  }
+
+  .shelter-cards {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    position: absolute;
+    width: 1276px;
+    height: 364px;
+    left: 0px;
+    top: 80px;
+  }
+
+}

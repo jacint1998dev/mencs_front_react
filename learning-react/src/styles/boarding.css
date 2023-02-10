@@ -1,0 +1,265 @@
+@media screen and (max-width: 480px){
+  .button-more-boarding {
+    display: none;
+  }
+  
+  .boarding-desk {
+    display: none;
+  }
+  .boarding-locations-frame-desk {
+    display: none;
+  }
+
+  .boarding-frame-content {
+    display: none;
+  }
+  .boarding-frame {
+    position: absolute;
+    width: 325px;
+    height: 40px;
+    left: 25px;
+    top: 1645px;
+
+  }
+
+  .boarding-locations-frame {
+    position: absolute;
+    width: 326px;
+    height: 130px;
+    left: 25px;
+    top: 1710px;
+
+    background: #FFFAFA;
+    box-shadow: 0px 3px 10px rgba(43, 42, 41, 0.15);
+    border-radius: 25px;
+  }
+
+  .boarding-pets-image {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 15px;
+    top: 15px;
+    border-radius: 15px;
+  }
+
+  .boarding-location-text-frame {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0px;
+
+    position: absolute;
+    width: 253px;
+    height: 92px;
+    left: 130px;
+    top: 0px;
+  }
+
+  .boarding-text-title {
+    width: 153px;
+    white-space: nowrap;
+    height: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2B2A29;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .boarding-text-body {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 145px;
+    height: 60px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .boarding-text-content {
+    width: 145px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #2B2A29;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .button-more-boarding {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 15px;
+
+    position: absolute;
+    width: 56px;
+    height: 50px;
+    left: 1335px;
+    top: 220px;
+    background: #FFFAFA;
+    border: 2px solid #2B2A29;
+    border-radius: 25px;
+  }
+  .boarding-frame {
+    display: none;
+  }
+  .boarding {
+    display: none;
+  }
+  .boarding-desk {
+    position: absolute;
+    width: 1274px;
+    height: 429px;
+    left: 323px;
+    top: 2890px;
+  }
+
+  .boarding-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 1274px;
+    height: 370px;
+    left: 0px;
+    top: 59px;
+  }
+
+  .boarding-frame-inside-1 {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 617px;
+    height: 370px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .boarding-frame-inside-2 {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 617px;
+    height: 370px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .boarding-locations-frame {
+    display: none;
+  }
+
+  .boarding-location-frame-desk {
+    align-items: flex-start;
+    padding: 15px;
+    gap: 10px;
+    width: 617px;
+    height: 175px;
+    background: #f9e5e5;
+    box-shadow: 0px 3px 10px rgba(43, 42, 41, 0.15);
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .boarding-frame-content {
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+    width: 587px;
+    height: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .boarding-frame-bottom-buttons {
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+    gap: 10px;
+    width: 100%;
+
+    height: auto;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .boarding-frame-img {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .boarding-frame-content-text {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 472px;
+    height: 95px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .boarding-frame-content-text-inside {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2px;
+    width: 411px;
+    height: 45px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .boarding-frame-title {
+    width: 411px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #2B2A29;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .boarding-frame-text {
+    width: 472px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    color: #2B2A29;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+}

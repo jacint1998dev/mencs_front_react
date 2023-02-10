@@ -1,0 +1,562 @@
+@media screen and (max-width: 480px){
+  .animals-desk {
+    display: none;
+  }
+
+  .button-more-animals {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 15px;
+    gap: 15px;
+    position: absolute;
+    width: 72px;
+    height: 40px;
+    left: 253px;
+    top: 10px;
+    background: #FFFAFA;
+    border: 2px solid #2B2A29;
+    border-radius: 25px;
+  }
+
+  .animals {
+    position: absolute;
+    width: 905px;
+    height: 537px;
+    left: -118px;
+    top: 314px;
+  }
+
+  .animals-frame {
+    position: absolute;
+    width: 905px;
+    height: 537px;
+    left: 0px;
+    top: 0px;
+  }
+
+  .animals-adopt {
+    position: absolute;
+    width: 325px;
+    height: 40px;
+    left: 143px;
+    top: 0px;
+  }
+
+  .animals-adopt-h2 {
+    position: absolute;
+    width: 131px;
+    height: 27px;
+    left: 0px;
+    top: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #2B2A29;
+  }
+  .small-animal-cards {
+    align-items: flex-start;
+    gap: 22px;
+    position: absolute;
+    width: 326px;
+    height: 130px;
+    left: 142px;
+    top: 65px;
+    overflow-x: scroll;
+  }
+
+  .small-card-frame {
+    align-items: center;
+    gap: 15px;
+    width: 70px;
+    height: 105px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .small-card-rectangle {
+    width: 70px;
+    height: 70px;
+    box-shadow: 0px 3px 10px rgba(43, 42, 41, 0.15);
+    border-radius: 15px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .small-card-text {
+    width: 53px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #2B2A29;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .big-animal-cards-1 {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+    position: absolute;
+    width: 318px;
+    height: 345px;
+    left: 150px;
+    top: 205px;
+    overflow-x: scroll;
+  }
+
+  .big-card-frame {
+    display: flex;
+    width: 285px;
+    height: 255px;
+    border-radius: 25px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .big-animal-card {
+    display: none;
+  }
+
+  .animal-heart-icon-1{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 234px;
+    top: 15px;
+    color:white;    
+  }
+  .animal-heart-icon-2{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 550px;
+    top: 15px;
+    color:white;    
+  }
+  .animal-heart-icon-3{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 855px;
+    top: 15px;
+    color:white;    
+  }
+  .animal-heart-icon-4{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 1170px;
+    top: 15px;
+    color:white;    
+  }
+  .big-card-name-frame-1 {
+    align-items: flex-start;
+    padding: 20px;
+    gap: 1px;
+    isolation: isolate;
+    position: absolute;
+    width: 200px;
+    height: 95px;
+    left: 23px;
+    top: 180px;
+    background: #FFEFEB;
+    border-radius: 16px;
+  }
+
+  .big-card-name-frame-2 {
+    align-items: flex-start;
+    padding: 20px;
+    gap: 1px;
+    isolation: isolate;
+    position: absolute;
+    width: 200px;
+    height: 95px;
+    top: 180px;
+    background: #FFEFEB;
+    border-radius: 16px;
+  }
+
+  .big-card-name-frame-3 {
+    align-items: flex-start;
+    padding: 20px;
+    gap: 1px;
+    isolation: isolate;
+    position: absolute;
+    width: 200px;
+    height: 95px;
+    top: 180px;
+    background: #FFEFEB;
+    border-radius: 16px;
+  }
+
+  .big-card-name-frame-4 {
+    align-items: flex-start;
+    padding: 20px;
+    gap: 1px;
+    isolation: isolate;
+    position: absolute;
+    width: 200px;
+    height: 95px;
+    top: 180px;
+    background: #FFEFEB;
+    border-radius: 16px;
+  }
+
+
+
+  .big-card-name {
+    width: 79px;
+    height: 27px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #2B2A29;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .big-card-name-frame-inside-2 {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 198px;
+    height: 64px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .big-card-frame-inside-3 {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    width: 198px;
+    height: 22px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .big-card-text {
+    width: 198px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0%;
+    color: #2B2A29;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+  }
+}
+
+@media screen and (min-width: 480px) {
+
+  .animal-search-button {
+    align-items: center;
+    padding: 0px 15px;
+    gap: 15px;
+
+    position: absolute;
+    width: 225px;
+    height: 50px;
+    left: 1049px;
+    top: 0px;
+    background: #F2DDC1;
+    border-radius: 25px;
+  }
+
+  .search-button-text {
+    width: 144px;
+    height: 18px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2B2A29;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .animal-frame {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 84px;
+
+    position: absolute;
+    width: 1275px;
+    height: 594px;
+    left: 0px;
+    top: 80px;
+  }
+
+  .animal-frame-row-1 {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 45px;
+    width: 1275px;
+    height: 255px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .big-card-frame {
+    display: none;
+  }
+
+  .big-animal-card {
+    width: 285px;
+    height: 255px;
+    border-radius: 25px;
+  }
+
+
+  .animal-heart-icon-1 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 234px;
+    top: 15px;
+  }
+  .animal-heart-icon-2 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 570px;
+    top: 15px;
+  }
+  .animal-heart-icon-3 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 905px;
+    top: 15px;
+  }
+  .animal-heart-icon-4 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 1234px;
+    top: 15px;
+  }
+  .animal-heart-icon-5 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 234px;
+    top: 330px;
+  }
+  .animal-heart-icon-6 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 570px;
+    top: 330px;
+  }
+  .animal-heart-icon-7 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 905px;
+    top: 330px;
+  }
+  .animal-heart-icon-8 {
+    color: white;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 1230px;
+    top: 330px;
+  }
+
+  .big-animal-card-textarea-1 {
+    align-items: flex-start;
+    padding: 20px;
+    gap: 1px;
+    isolation: isolate;
+
+    position: absolute;
+    width: 238px;
+    height: 80px;
+    left: 4px;
+    top: 205px;
+    background: #fbded7;
+    border-radius: 16px;
+  }
+
+  .big-animal-card-textarea-2 {
+    align-items: flex-start;
+    padding: 20px;
+    gap: 1px;
+    isolation: isolate;
+    top: 205px;
+    position: absolute;
+    width: 238px;
+    height: 80px;
+    background: #fbded7;
+    border-radius: 16px;
+  }
+
+  .big-animal-card-textarea-3 {
+    align-items: flex-start;
+    padding: 20px;
+    gap: 1px;
+    isolation: isolate;
+    top: 205px;
+    position: absolute;
+    width: 238px;
+    height: 80px;
+    background: #fbded7;
+    border-radius: 16px;
+  }
+
+  .big-animal-card-textarea-4 {
+    align-items: flex-start;
+    padding: 20px;
+    gap: 1px;
+    isolation: isolate;
+    top: 205px;
+    position: absolute;
+    width: 238px;
+    height: 80px;
+    background: #fbded7;
+    border-radius: 16px;
+  }
+
+  .big-animal-card-textarea-5 {
+    align-items: flex-start;
+    padding: 20px;
+    gap: 1px;
+    isolation: isolate;
+    top: 500px;
+    position: absolute;
+    width: 238px;
+    height: 80px;
+    background: #fbded7;
+    border-radius: 16px;
+  }
+
+  .big-animal-card-textarea-6 {
+    align-items: flex-start;
+    padding: 20px;
+    gap: 1px;
+    isolation: isolate;
+    top: 500px;
+    position: absolute;
+    width: 238px;
+    height: 80px;
+    background: #fbded7;
+    border-radius: 16px;
+  }
+
+  .big-animal-card-textarea-7 {
+    align-items: flex-start;
+    padding: 20px;
+    gap: 1px;
+    isolation: isolate;
+    position: absolute;
+    top: 500px;
+    width: 238px;
+    height: 80px;
+    background: #fbded7;
+    border-radius: 16px;
+  }
+
+  .big-animal-card-textarea-8 {
+    align-items: flex-start;
+    padding: 20px;
+    gap: 1px;
+    position: absolute;
+    top: 500px;
+    width: 238px;
+    height: 80px;
+    background: #fbded7;
+    border-radius: 16px;
+  }
+
+  .big-animal-card-textarea-inside {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+
+    width: 198px;
+    height: 64px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+  }
+
+  .big-animal-card-name {
+    width: 69px;
+    height: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 0px;
+    color: #2B2A29;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .big-animal-card-textarea-inside-2 {
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+    width: 198px;
+    height: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .big-animal-card-textarea-inside-2-text {
+    width: 198px;
+    height: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2B2A29;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .button-more-animals {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 15px;
+    position: absolute;
+    width: 56px;
+    height: 50px;
+    left: 1335px;
+    top: 360px;
+    background: #FFFAFA;
+    border: 2px solid #2B2A29;
+    border-radius: 25px;
+  }
+}
