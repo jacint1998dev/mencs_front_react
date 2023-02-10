@@ -12,17 +12,7 @@
   .p-0{
     padding: 0px;
   }
-  .menu-nav {
-    position: absolute;
-    width: 375px;
-    height: 70px;
-    left: 0px;
-    top: 0px;
-  }
-
-  .animals-desk {
-    display: none;
-  }
+  
 
   .dropdown {
     display: none;
