@@ -1,11 +1,20 @@
 @media screen and (max-width: 480px) {
 
   .menu-nav {
-    position: absolute;
-    width: 375px;
-    height: 70px;
-    left: 0px;
-    top: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+  }
+  .menu-div{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
   }
   .dp-flex.flex-row.menu-nav-div {
     display: none;
@@ -60,15 +69,12 @@
     display: none;
   }
   .menu-nav {
-    position: absolute;
-    width: 1920px;
-    height: 1080px;
-    left: 0px;
-    top: 0px;
-    background: url(../../src/images/dog_bg.png);
-    background-repeat: no-repeat;
-    background-size: 1920px 920px;
-    opacity: 0.9;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
   }
   
   .fa-solid.fa-bars.nav-bar-icon {
@@ -104,21 +110,13 @@
   }
 
   .menu-nav-div {
-    justify-content: space-evenly;
+    justify-content:flex-end;
     align-items: center;
     padding: 0px;
     gap: 30px;
-
-    position: absolute;
-    width: 648px;
-    height: 50px;
-    right: 322px;
-    top: 40px;
   }
 
   .menu-nav-div-adop {
-    width: 109px;
-    height: 22px;
     font-weight: 600;
     font-size: 20px;
     line-height: 22px;
@@ -129,8 +127,6 @@
   }
 
   .menu-nav-div-login {
-    width: 109px;
-    height: 22px;
     font-weight: 600;
     font-size: 20px;
     line-height: 22px;
@@ -145,8 +141,6 @@
     align-items: center;
     padding: 0px 15px;
     gap: 10px;
-    width: 180px;
-    height: 50px;
     border: 2px solid #2B2A29;
     border-radius: 15px;
     flex: none;
@@ -163,8 +157,6 @@
   }
 
   .menu-nav-div-language-name {
-    width: 81px;
-    height: 22px;
     font-weight: 600;
     font-size: 20px;
     line-height: 22px;
@@ -177,7 +169,6 @@
   }
 
   .menu-nav-div-language-down {
-
     position: relative;
     left: 0%;
     right: 0%;
@@ -189,7 +180,6 @@
     align-items: center;
     padding: 0px;
     gap: 10px;
-    width: 127px;
     height: 36px;
     flex: none;
     order: 0;
@@ -201,17 +191,22 @@
     align-items: center;
     padding: 0px;
     gap: 15px;
-
-    width: 111px;
-    height: 36px;
     flex: none;
     order: 3;
     flex-grow: 0;
   }
-
+  .menu-div{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    background: url(../../src/images/dog_bg.png);
+    background-repeat: no-repeat;
+    opacity: 0.9;
+  }
   .menu-nav-menu-text {
-    width: 60px;
-    height: 22px;
     font-weight: 600;
     font-size: 20px;
     line-height: 22px;

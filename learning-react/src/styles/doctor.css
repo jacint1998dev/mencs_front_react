@@ -22,10 +22,9 @@
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
-
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    width: 1274px;
-    height: 280px;
     left: 0px;
     top: 59px;
   }
@@ -290,6 +289,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 27px;
+    top:15px;
     display: flex;
     align-items: center;
     color: #2B2A29;

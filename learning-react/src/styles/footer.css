@@ -1,36 +1,27 @@
 @media screen and (max-width: 480px) {
   
   .footer {
+    box-sizing: border-box;
     position: absolute;
-    width: 375px;
-    height: 250px;
+    width: 100%;
     left: 0px;
     top: 1913px;
     background: #fae0c3;
   }
 
   .footer-logo {
-    position: absolute;
-    width: 45px;
-    height: 13px;
-    left: 154px;
-    top: 219px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
   }
 
   .footer-list {
-    position: absolute;
-    width: 109px;
-    height: 117px;
-    left: 133px;
-    top: 50px;
+   box-sizing: border-box;
+ 
   }
 
   .footer-list-item-1 {
-    position: absolute;
-    width: 57px;
-    height: 18px;
-    left: 26px;
-    top: 0px;
+    box-sizing: border-box;
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
@@ -39,11 +30,7 @@
   }
 
   .footer-list-item-2 {
-    position: absolute;
-    width: 45px;
-    height: 18px;
-    left: 32px;
-    top: 99px;
+  box-sizing: border-box;
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
@@ -52,11 +39,7 @@
   }
 
   .footer-list-item-3 {
-    position: absolute;
-    width: 39px;
-    height: 18px;
-    left: 35px;
-    top: 66px;
+ box-sizing: border-box;
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
@@ -66,11 +49,7 @@
   }
 
   .footer-list-item-4 {
-    position: absolute;
-    width: 109px;
-    height: 18px;
-    left: 0px;
-    top: 33px;
+    box-sizing: border-box;
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
@@ -79,9 +58,9 @@
 
   }
   .footer-line {
-    position: absolute;
-    width: 350px;
-    height: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
     left: 13px;
     top: 207px;
     border: 1px solid rgba(43, 42, 41, 0.2);

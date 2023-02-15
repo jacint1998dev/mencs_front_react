@@ -10,11 +10,7 @@
     align-items: center;
     padding: 0px 15px;
     gap: 15px;
-    position: absolute;
-    width: 72px;
-    height: 40px;
-    left: 253px;
-    top: 10px;
+    position: absolute;  
     background: #FFFAFA;
     border: 2px solid #2B2A29;
     border-radius: 25px;
@@ -22,8 +18,8 @@
 
   .animals {
     position: absolute;
-    width: 905px;
-    height: 537px;
+    width: 905vw;
+    height: 537vh;
     left: -118px;
     top: 314px;
   }
@@ -261,6 +257,13 @@
 
 @media screen and (min-width: 480px) {
 
+  .animals-desk {
+    position: absolute;
+    width: 1275px;
+    height: 728px;
+    left: 323px;
+    top: 1160px;
+  }
   .animal-search-button {
     align-items: center;
     padding: 0px 15px;

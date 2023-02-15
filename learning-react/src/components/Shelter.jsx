@@ -3,28 +3,14 @@ import Ellipse from "./Ellipse";
 import MoreButton from "./MoreButton";
 import ShelterCards from "./ShelterCard";
 import Title from "./Title";
-import shelterImage from "../images/shelter.jpg";
+
 
 export default function Shelter() {
   return (
     <>
-      <div className="shelter">
+      <div className="section shelter">
         <div className="dp-flex flex-row shelter-cards">
-          <ShelterCards
-            image={shelterImage}
-            name="Lorem Ipsum"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor... tovább."
-          />
-          <ShelterCards
-            image={shelterImage}
-            name="Lorem Ipsum"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor... tovább."
-          />
-          <ShelterCards
-            image={shelterImage}
-            name="Lorem Ipsum"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor... tovább."
-          />
+          <ShelterCards/>
         </div>
         <div className="shelter-title">
           <Title title="Menhelyek" />

@@ -16,6 +16,8 @@
 
   .boarding-frame {
     position: absolute;
+    display: flex;
+    flex-direction: column;
     width: 325px;
     height: 40px;
     left: 25px;

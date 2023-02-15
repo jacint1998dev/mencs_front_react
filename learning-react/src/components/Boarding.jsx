@@ -5,42 +5,26 @@ import Ellipse from "./Ellipse";
 import BoardingCard from "./BoardingCard";
 
 export default function Boarding() {
+
   return (
     <>
-      <div className="boarding">
+      <div className="section boarding">
         <div className="boarding-frame">
           <MoreButton className="" />
           <Title title="Állat panziók" />
         </div>
-        <BoardingCard
-          title="Állat panziók"
-          text="Sed ut perspiciatis unde omnis iste natus error..."
-        />
+        <BoardingCard/>
         <Ellipse name="mobile-slider4" />
       </div>
-
-      <div className="boarding-desk">
+    
+      <div className="section boarding-desk">
         <Title title="Állat panziók" />
         <div className="boarding-frame">
           <div className="dp-flex flex-col boarding-frame-inside-1">
-            <BoardingCard
-              title="Lorem kutyapanzió"
-              text="Sed ut perspiciatis unde omnis iste natus error..."
-            />
-            <BoardingCard
-              title="Lorem kutyapanzió"
-              text="Sed ut perspiciatis unde omnis iste natus error..."
-            />
+            <BoardingCard/>
           </div>
           <div className="dp-flex flex-col boarding-frame-inside-2">
-            <BoardingCard
-              title="Lorem kutyapanzió"
-              text="Sed ut perspiciatis unde omnis iste natus error..."
-            />
-            <BoardingCard
-              title="Lorem kutyapanzió"
-              text="Sed ut perspiciatis unde omnis iste natus error..."
-            />
+            <BoardingCard/>
           </div>
         </div>
         <MoreButton className="boarding" />
