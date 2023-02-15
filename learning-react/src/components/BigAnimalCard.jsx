@@ -4,15 +4,49 @@ import catImage2 from "../images/cat2.jpg";
 import dogImage from "../images/dog-5357794_1280.jpg";
 import dogImage2 from "../images/dog2.jpg";
 export default function BigAnimalCard() {
-  const [bigAnimals] = useState ([
-    { id: "1", background: catImage, name: "rex", text: "keverék, 4 hónapos" },
-    { id: "2", background: dogImage, name: "Bloki", text: "faj, 4 hónapos" },
-    { id: "3", background: catImage2, name: "Retek", text: "keverék, 4 hónapos"},
-    { id: "4", background: dogImage2, name: "Gombóc", text: "faj, 4 hónapos" },
-    {id: "5", background: catImage, name: "Nyomi", text: "keverék, 4 hónapos"},
-    { id: "6", background: dogImage, name: "Szotyi", text: "faj, 4 hónapos" },
-    { id: "7", background: catImage2, name: "rex", text: "keverék, 4 hónapos" },
-    { id: "8", background: dogImage2, name: "Nyomi", text: "faj, 4 hónapos" },
+  const [bigAnimals] = useState([
+    { 
+      id: "1", 
+      background: catImage, 
+      name: "rex", 
+      text: "keverék, 4 hónapos" },
+    { 
+      id: "2", 
+      background: dogImage, 
+      name: "Bloki", 
+      text: "faj, 4 hónapos" },
+    {
+      id: "3",
+      background: catImage2,
+      name: "Retek",
+      text: "keverék, 4 hónapos",
+    },
+    { 
+      id: "4", 
+      background: dogImage2, 
+      name: "Gombóc", 
+      text: "faj, 4 hónapos" },
+    {
+      id: "5",
+      background: catImage,
+      name: "Nyomi",
+      text: "keverék, 4 hónapos",
+    },
+    { 
+      id: "6", 
+      background: dogImage, 
+      name: "Szotyi", 
+      text: "faj, 4 hónapos" },
+    { 
+      id: "7", 
+      background: catImage2, 
+      name: "rex", 
+      text: "keverék, 4 hónapos" },
+    { 
+      id: "8", 
+      background: dogImage2, 
+      name: "Nyomi", 
+      text: "faj, 4 hónapos" },
   ]);
 
   const bigAnimalsFirstFour = bigAnimals.slice(0, 4);

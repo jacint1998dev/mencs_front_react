@@ -11,7 +11,7 @@ export default function Animals() {
       <div className="section animals-desk">
         <div className="dp-flex flex-col animal-frame">
           <div className="dp-flex flex-row animal-frame-row-1">
-            <BigAnimalCard/>
+            <BigAnimalCard />
           </div>
         </div>
         <MoreButton className="animals" />
@@ -44,7 +44,7 @@ export default function Animals() {
           </div>
         </div>
         <div className="p-0 dp-flex flex-row big-animal-cards-1">
-          <BigAnimalCard/>
+          <BigAnimalCard />
         </div>
       </div>
     </>
